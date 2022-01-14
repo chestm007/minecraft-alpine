@@ -1,0 +1,15 @@
+default_steps: &default_steps
+  steps:
+    - checkout
+
+jobs:
+  1.14.4:
+    docker:
+      - image: docker:20.10.12-alpine3.15
+    working_directory: ~/repo
+    <<: *default_steps
+
+workflows:
+  build_and_test:
+    stages:
+      - 1.14.4
