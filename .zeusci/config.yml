@@ -1,5 +1,12 @@
+install_build_tools: &install_build_tools
+  run:
+    name: install build tools
+    command: |
+      apk add git
+
 default_steps: &default_steps
   steps:
+    - <<: *install_build_tools
     - checkout
 
 jobs:
