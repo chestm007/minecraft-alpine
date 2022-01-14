@@ -21,13 +21,15 @@ versions supported:
 ## Build
 
 ``` sh
+cd minecraft-alpine
 ./build $MC_VERSION
 ```
 
 ## Build including better minecraft modpack
 
 ``` sh
-./build $MC_VERSION bmc
+cd better-minecraft
+./build $MC_VERSION
 ```
 
 ## Run

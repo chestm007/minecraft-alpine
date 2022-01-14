@@ -4,17 +4,22 @@ install_build_tools: &install_build_tools
     command: |
       apk add git
 
-default_steps: &default_steps
-  steps:
-    - <<: *install_build_tools
-    - checkout
+build_carpet: &build_carpet
+  run:
+    name: build image
+    command: |
+      cd minecraft-alpine
+      ./build.sh 1.14.4
 
 jobs:
   1.14.4:
     docker:
       - image: docker:20.10.12-alpine3.15
     working_directory: ~/repo
-    <<: *default_steps
+    steps:
+      - <<: *install_build_tools
+      - checkout
+      - <<: *build_carpet
 
 workflows:
   build_and_test:
