@@ -1,0 +1,23 @@
+To refresh this file, delete it and run /reload command again! Last updated: Aug 20, 2021, 3:29:56 PM
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- the_aether:dense_aercloud
+- minecraft:water
+- minecraft:flowing_water
+- earthtojavamobs:mud_fluid
+- earthtojavamobs:mud_fluid_flowing
+- minecraft:water
+
+#c:mud
+- earthtojavamobs:mud_fluid
+- earthtojavamobs:mud_fluid_flowing
+
+#earthtojavamobs:mud
+- earthtojavamobs:mud_fluid
+- earthtojavamobs:mud_fluid_flowing

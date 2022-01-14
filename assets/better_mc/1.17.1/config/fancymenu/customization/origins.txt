@@ -1,0 +1,22 @@
+type = menu
+
+customization-meta {
+  identifier = io.github.apace100.origins.screen.ChooseOriginScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = true
+  x = -91
+  actionid = 1b7dbc94-d1c7-4804-8920-b7ec9cebf4111627385017112
+  action = addtext
+  y = -12
+  scale = 1.0
+  alignment = left
+  value = All Origins will have the Thirst System
+}
+

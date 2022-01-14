@@ -1,0 +1,8 @@
+{
+	"fastLeafDecay": true,
+	"fullChopDurabilityUsage": "BREAK_MID_CHOP",
+	"sneakToDisable": true,
+	"requireLeavesToChop": true,
+	"treeChopMode": "FULL_CHOP"
+}
+}

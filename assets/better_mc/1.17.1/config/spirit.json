@@ -1,0 +1,34 @@
+{
+  "requiredSouls": 64,
+  "tiers": 4,
+  "minSpawnDelay": [
+    300,
+    150,
+    75,
+    25
+  ],
+  "maxSpawnDelay": [
+    1000,
+    600,
+    400,
+    300
+  ],
+  "spawnCount": [
+    3,
+    5,
+    7,
+    9
+  ],
+  "spawnRange": [
+    5,
+    7,
+    9,
+    11
+  ],
+  "nearbyRange": [
+    16,
+    24,
+    32,
+    -1
+  ]
+}

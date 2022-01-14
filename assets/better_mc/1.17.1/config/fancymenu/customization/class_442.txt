@@ -1,0 +1,220 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = cool_slideshow
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400310%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 13
+}
+
+customization {
+  identifier = %id=400358%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604394%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604394%
+  orientation = mid-centered
+  x = 104
+  action = movebutton
+  y = 65
+}
+
+customization {
+  identifier = %id=400286%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -12
+}
+
+customization {
+  identifier = %id=400286%
+  width = 200
+  action = resizebutton
+  height = 21
+}
+
+customization {
+  identifier = %id=400334%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400394%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 65
+}
+
+customization {
+  identifier = %id=502394%
+  orientation = mid-centered
+  x = 104
+  action = movebutton
+  y = 65
+}
+
+customization {
+  identifier = %id=502394%
+  width = 21
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502394%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376394%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 65
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  x = 104
+  width = 20
+  actionid = f8f6f529-b701-4c7c-9e9c-92813934cbe71630432317812
+  action = addbutton
+  y = 37
+  label = 
+  value = com.terraformersmc.modmenu.gui.ModsScreen
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = Bisect Server Hosting
+  loopbackgroundanimations = true
+  hoverlabel = Use CODE: LunaPixel for 25% off
+  x = -100
+  width = 200
+  actionid = 71c5714e-d3c5-421c-a7d1-a89fb24ed8b01630432317813
+  action = addbutton
+  y = 37
+  value = https://www.bisecthosting.com/LunaPixel
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -124
+  width = 20
+  actionid = 0f2018b5-062d-4535-ae0f-47feb485eb651630432317813
+  action = addbutton
+  y = 37
+  label = D
+  value = https://discord.gg/9S5tfrY4Fr
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/discord.png
+  orientation = mid-centered
+  x = -121
+  width = 14
+  action = addtexture
+  actionid = dd29d7e2-5908-4588-822e-53f85f64a6b11619564035680
+  y = 39
+  height = 15
+}
+
+customization {
+  orientation = bottom-left
+  shadow = true
+  x = 2
+  actionid = d9ba04d7-a148-47c1-b39b-b476f5b8ade51622569281187
+  action = addtext
+  y = -11
+  scale = 1.0
+  alignment = left
+  value = Allocate More RAM For Better Performance
+}
+
+customization {
+  path = resourcepacks/Graphics/fabricapi.png
+  orientation = mid-centered
+  x = 106
+  width = 15
+  action = addtexture
+  actionid = 29c79370-a225-4661-8b57-4e6b541accfe1624244950818
+  y = 39
+  height = 15
+}
+
+customization {
+  path = resourcepacks/Graphics/logo.png
+  orientation = mid-centered
+  x = -110
+  width = 221
+  action = addtexture
+  actionid = 4480cf46-0011-4e6d-9095-6b74b480fb981630432338563
+  y = -119
+  height = 100
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 2
+  width = 98
+  actionid = d67c4581-bb89-48fc-8983-be482226a3471636394851913
+  action = addbutton
+  y = 65
+  label = Support Sharkie
+  value = https://www.paypal.com/donate/?hosted_button_id=3RNWQHFB7RE9J
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/exit.png
+  orientation = mid-centered
+  x = 105
+  width = 18
+  action = addtexture
+  actionid = b8fe02ad-5b87-4e19-ad79-a31dbbbb47d81636395158255
+  y = 66
+  height = 18
+}
+

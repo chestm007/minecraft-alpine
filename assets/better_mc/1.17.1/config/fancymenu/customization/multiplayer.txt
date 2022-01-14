@@ -1,0 +1,112 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_500
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=346948%
+  orientation = bottom-centered
+  x = -194
+  action = movebutton
+  y = -52
+}
+
+customization {
+  identifier = %id=450948%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=580972%
+  orientation = bottom-centered
+  x = 94
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=580972%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=346972%
+  orientation = bottom-centered
+  x = -194
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=346972%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=426972%
+  orientation = bottom-centered
+  x = -90
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=426972%
+  width = 88
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=554948%
+  orientation = bottom-centered
+  x = 94
+  action = movebutton
+  y = -52
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = Bisect Server Hosting
+  loopbackgroundanimations = true
+  hoverlabel = Get 25% OFF! With CODE: LunaPixel
+  x = -90
+  width = 180
+  actionid = 3200adfa-8a92-44a0-a45d-2211a26da12f1636395244238
+  action = addbutton
+  y = -52
+  value = 
+  height = 20
+}
+
+customization {
+  identifier = %id=504972%
+  orientation = bottom-centered
+  x = 2
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=504972%
+  width = 88
+  action = resizebutton
+  height = 20
+}
+

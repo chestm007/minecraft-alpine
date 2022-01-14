@@ -1,0 +1,11 @@
+type = customizablemenus
+
+net.minecraft.class_442 {
+}
+
+net.minecraft.class_433 {
+}
+
+io.github.apace100.origins.screen.ChooseOriginScreen {
+}
+
