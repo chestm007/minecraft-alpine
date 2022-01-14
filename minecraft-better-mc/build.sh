@@ -16,8 +16,7 @@ echo 'updating base image'
 docker pull $BASE_IMAGE
 
 echo 'install better mc'
-cp -r ../assets/better_mc/$USER_SPECIFIED_VERSION/mods/* temp_dir/mods/
-cp -r ../assets/better_mc/$USER_SPECIFIED_VERSION/config/* temp_dir/config/
+python better_mc_version.py $USER_SPECIFIED_VERSION
 
 if [[ $USER_SPECIFIED_VERSION == '1.17.1' ]]; then
   echo "downloading fabric..."

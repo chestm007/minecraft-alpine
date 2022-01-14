@@ -329,7 +329,7 @@ drippyloadingscreen.helper.ui.hud.layouts.manage.edit.desc = Edit this layout in
 
 drippyloadingscreen.helper.ui.closehelper = Close Customization Helper
 
-drippyloadingscreen.helper.ui.reload.desc = Reload DrippyLoadingScreen.%n%%n%§lWill reload:%n%- Slideshows%n%- Mod Config%n%- Layouts%n%- Random Layouts
+drippyloadingscreen.helper.ui.reload.desc = Reload DrippyLoadingScreen.%n%%n%§lWill reload:%n%- Slideshows%n%- Mod Config%n%- Layouts
 
 drippyloadingscreen.helper.editor.ui.unsavedwarning = §c§lAre you sure?%n%%n%%n%All unsaved changes for the current layout%n%will get lost!%n% %n% %n%
 
@@ -486,45 +486,3 @@ drippyloadingscreen.helper.creator.add.customprogressbar = Custom Progress Bar
 
 drippyloadingscreen.helper.editor.backgroundimage = Background Image
 drippyloadingscreen.helper.editor.backgroundimage.btn.desc = Set an image as background.
-
-drippyloadingscreen.config.showgrid = Show Grid
-drippyloadingscreen.config.showgrid.desc = Add a grid to the editor for easier aligning.
-drippyloadingscreen.config.gridsize = Grid Size
-drippyloadingscreen.config.gridsize.desc = The inner size of one grid square.
-
-drippyloadingscreen.helper.editor.forcescale = Force GUI Scale
-drippyloadingscreen.helper.editor.forcescale.btn.desc = Force a GUI scale for the loading screen.
-
-drippyloadingscreen.helper.editor.fadeout.on = Fade-Out Screen: §aOn
-drippyloadingscreen.helper.editor.fadeout.off = Fade-Out Screen: §cOff
-drippyloadingscreen.helper.editor.fadeout.btn.desc = If the loading screen should fade%n%to the next screen.%n%%n%§cThis is always disabled when%n%FancyMenu is installed.
-
-drippyloadingscreen.helper.editor.properties.autoscale.on = Layout Auto-Scaling: §aOn
-drippyloadingscreen.helper.editor.properties.autoscale.off = Layout Auto-Scaling: §cOff
-drippyloadingscreen.helper.editor.properties.autoscale.btn.desc = Let Drippy handle the scale of%n%the loading screen, so your layout works%n%for every scale and resolution.%n%%n%§cThis will make text elements look%n%§cblurry at some scales.%n%§cThis can't be fixed and the best%n%§cworkaround is to use images%n%§cwith background as text elements.
-drippyloadingscreen.helper.editor.properties.autoscale.basesize.popup.desc.line1 = Here you can set the base window size of your layout.
-drippyloadingscreen.helper.editor.properties.autoscale.basesize.popup.desc.line2 = This should be the size your layout was designed for.
-drippyloadingscreen.helper.editor.properties.autoscale.basesize.popup.desc.line3 = If you made it in the current window size, just leave the values like they are.
-drippyloadingscreen.helper.editor.properties.autoscale.error = §c§lSomething went wront!%n%%n%Setting base size for auto-scaling failed!%n%Please check if both values are §lbigger than 0%n%and that they are §lvalid numbers§r.%n% %n% %n% %n% %n%
-
-drippyloadingscreen.helper.editor.windowsize.currentwidth = Current Window Width
-drippyloadingscreen.helper.editor.windowsize.currentheight = Current Window Height
-
-drippyloadingscreen.helper.editor.layoutoptions.randommode.on = Random Mode: §aOn
-drippyloadingscreen.helper.editor.layoutoptions.randommode.off = Random Mode: §cOff
-drippyloadingscreen.helper.editor.layoutoptions.randommode.btn.desc = Pick a random layout of the same%n%group when the menu gets opened.%n%%n%Can be used to randomize%n%backgrounds and other elements.
-drippyloadingscreen.helper.editor.layoutoptions.randommode.setgroup = Set Random Group
-drippyloadingscreen.helper.editor.layoutoptions.randommode.setgroup.btn.desc = Set the group of this random layout.%n%One layout per group gets picked%n%when the menu gets opened.
-drippyloadingscreen.helper.editor.layoutoptions.randommode.onlyfirsttime.on = Randomize Only First Time: §aOn
-drippyloadingscreen.helper.editor.layoutoptions.randommode.onlyfirsttime.off = Randomize Only First Time: §cOff
-drippyloadingscreen.helper.editor.layoutoptions.randommode.onlyfirsttime.btn.desc = If layouts of this random group%n%should be random everytime the%n%menu gets opened or if only one layout%n%should be picked the first time%n%the menu gets opened.
-
-drippyloadingscreen.helper.editor.items.copyid = Copy Element ID
-drippyloadingscreen.helper.editor.items.copyid.btn.desc = Copy the ID of this element.
-
-drippyloadingscreen.helper.editor.items.orientation.loading-progress.setidentifier = Set Element ID
-drippyloadingscreen.helper.editor.items.orientation.loading-progress.setidentifier.identifiernotfound = §c§lError!%n%%n%No element found with this element ID!%n%%n%%n%%n%
-drippyloadingscreen.helper.editor.items.orientation.loading-progress.setidentifier.invalidtype = §c§lError!%n%%n%This element is not a Custom Progress Bar element!%n%%n%%n%%n%
-drippyloadingscreen.helper.editor.items.orientation.loading-progress.btn.desc = The positon of the §lprogress end §rof a%n%§lcustom §rprogress bar will be set%n%as orientation origin point, so%n%this element will always move with the%n%progress of said custom progress bar.%n%%n%§cYou need the element ID%n%§cof the parent element here.%n%§cYou can get the element ID%n%§cwhen you right-click an element.
-
-drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.loadingprogress = Loading Progress in %

@@ -42,6 +42,11 @@
     "showWhenZero": false,
     "blacklist": []
   },
+  "petOwner": {
+    "enabled": true,
+    "offline": true,
+    "blacklist": []
+  },
   "effect": {
     "enabled": true,
     "level": true,
